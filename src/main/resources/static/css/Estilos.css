@@ -9,3 +9,41 @@
     font-size: 20px
     
 }
+
+
+
+a:link{
+    color: chocolate;
+    
+}
+
+a:visited{
+    color: darkgreen;
+/*    background-color: green;*/
+    
+}
+
+a:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+a:active{
+    background-color: red;
+    color: black;
+    
+}
+
+p:nth-child(even){
+    background-color: red;
+    
+}
+
+p:nth-child(odd){
+    background-color: green;
+    
+}
+
+
