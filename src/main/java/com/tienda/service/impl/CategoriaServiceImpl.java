@@ -50,4 +50,9 @@ public class CategoriaServiceImpl implements CategoriaService {
         categoriaDao.delete(categoria);
     }
 
+    @Override
+    public List<Categoria> buscarPorDescripcion(String descripcion) {
+        return categoriaDao.findByDescripcion(descripcion);
+    }
+
 }
